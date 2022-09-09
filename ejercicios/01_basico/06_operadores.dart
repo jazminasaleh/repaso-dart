@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  int? b = 4;
+  int? b;
   b ??= 89;
   int? a;
 
