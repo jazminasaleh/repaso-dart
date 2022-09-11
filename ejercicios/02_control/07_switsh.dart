@@ -5,3 +5,4 @@ void main(List<String> args) {
   int rnd = Random().nextInt(10);
   print(rnd);
 }
+
