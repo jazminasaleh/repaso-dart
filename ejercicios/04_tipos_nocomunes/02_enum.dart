@@ -1,9 +1,8 @@
 void main(List<String> args) {
   Audio volumen = Audio.alto;
-  
+
+  volumen == Audio.alto ? print('Volumen alto') : print('volumen bajo');
 }
 
-
-enum Audio{
-  bajo, medio, alto
-}
+//* Enumercion
+enum Audio { bajo, medio, alto }

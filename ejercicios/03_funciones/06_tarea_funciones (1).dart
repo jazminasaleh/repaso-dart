@@ -1,10 +1,4 @@
-/** 
- *  Dado el siguiente código 
- *    Optimizarlo lo más posible usando funciones
- *    y todo lo visto en el curso
- * 
- *  Ver el primer ejemplo:
-*/
+
 import 'dart:io';
 
 main() {
