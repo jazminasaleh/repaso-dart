@@ -1,6 +1,7 @@
 import 'dart:math';
 
 void main(List<String> args) {
-  int rnd = Random().nextInt(7);
+  //* Numeros aleatorios de 0 a 10
+  int rnd = Random().nextInt(10);
   print(rnd);
 }

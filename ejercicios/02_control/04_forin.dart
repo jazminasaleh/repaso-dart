@@ -5,7 +5,7 @@ void main(List<String> args) {
     print(listado[i]);
   }
 
-  for (String nom in listado) {
-    print(nom);
+  for (String i in listado) {
+    print(i);
   }
 }

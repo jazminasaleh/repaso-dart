@@ -2,6 +2,7 @@ import 'dart:io';
 
 void main(List<String> args) {
   stdout.writeln('Cual es su edad?');
+  //*convertir a entero
   int edad = int.parse(stdin.readLineSync() ?? '0');
   stdout.writeln(edad);
   if (edad < 18) {
@@ -11,4 +12,6 @@ void main(List<String> args) {
   } else if (edad > 20) {
     stdout.writeln('Ciudadano');
   }
+
+  
 }
