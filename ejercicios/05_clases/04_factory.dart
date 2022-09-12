@@ -4,6 +4,7 @@ class Rectangulo {
   int? area;
   String? tipo;
 
+  //* Factory quiere decir que debe devolver algo de tipo Rectangulo
   factory Rectangulo(int base, int altura) {
     if (base == altura) {
       return Rectangulo.cuadrado(base);
@@ -11,7 +12,7 @@ class Rectangulo {
       return Rectangulo.rectangulo(base, altura);
     }
   }
-
+  //* Constructor con nombre de cuadrado
   Rectangulo.cuadrado(int base) {
     this.base = base;
     this.altura = altura;
@@ -19,6 +20,7 @@ class Rectangulo {
     this.tipo = 'cuadrado';
   }
 
+  //* Constuctor con nombre de rectangulo
   Rectangulo.rectangulo(int base, int altura) {
     this.base = base;
     this.altura = altura;

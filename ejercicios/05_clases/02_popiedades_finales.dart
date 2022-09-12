@@ -1,4 +1,5 @@
 class Cuadrado {
+  //* No se pueden modificar
   final int? lado;
   final int? area;
 
@@ -11,4 +12,5 @@ class Cuadrado {
 void main(List<String> args) {
   final cuadrado = new Cuadrado(10);
   print(cuadrado.area);
+  print(cuadrado.lado);
 }
